@@ -185,3 +185,29 @@
     margin-left: 25px;
   }
 }
+.eligibility-point {
+  font-size: 15px;
+  font-family: 'Roboto';
+}
+
+.eligibility-heading {
+  font-size: 25px;
+  padding-left: 48px;
+}
+
+.icon {
+  height: 80px;
+  width: 60px;
+}
+.card-name {
+  font-size: 20px;
+}
+.start-time-container {
+  margin-top: 70px;
+}
+.acca-logo-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

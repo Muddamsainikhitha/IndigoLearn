@@ -1,5 +1,7 @@
 import {TiTick} from 'react-icons/ti'
-
+import {IoBulbOutline} from 'react-icons/io5'
+import {BsPeopleFill} from 'react-icons/bs'
+import {AiOutlineSafety} from 'react-icons/ai'
 import './index.css'
 
 const Home = () => (
@@ -42,7 +44,10 @@ const Home = () => (
       <hr className="line" />
       <div className="card-items-container">
         <div className="item-container">
-          <h1 className="card-name">Conceptual</h1>
+          <div className="acca-logo-container">
+            <IoBulbOutline className="icon" />
+            <h1 className="card-name">Conceptual</h1>
+          </div>
           <div className="list-items-container">
             <ul className="list-items">
               <li className="list-item">Regular Live Classes</li>
@@ -54,6 +59,7 @@ const Home = () => (
           </div>
         </div>
         <div className="item-container">
+          <BsPeopleFill className="icon" />
           <h1 className="card-name">Comprehensive</h1>
           <div className="list-items-container">
             <ul className="list-items">
@@ -66,6 +72,7 @@ const Home = () => (
           </div>
         </div>
         <div className="item-container">
+          <AiOutlineSafety className="icon" />
           <h1 className="card-name">Career Oriented</h1>
           <div className="list-items-container">
             <ul className="list-items">
@@ -79,13 +86,15 @@ const Home = () => (
         </div>
       </div>
     </div>
-    <p className="start-time-heading">
-      Live classes start from late September, 2022.
-      <span className="spanElement">Click here to Enrol Now.</span>
-    </p>
-    <div className="silver-container">
-      <h1 className="silverHeading"> SILVER LEARNING PARTNER</h1>
-      <p className="silver-logo">ACCA</p>
+    <div className="start-time-container">
+      <p className="start-time-heading">
+        Live classes start from late September, 2022.
+        <span className="spanElement">Click here to Enrol Now.</span>
+      </p>
+      <div className="silver-container">
+        <h1 className="silverHeading"> SILVER LEARNING PARTNER</h1>
+        <p className="silver-logo">ACCA</p>
+      </div>
     </div>
     <div className="eligibility-card-container">
       <h1 className="heading">ACCA - Eligibility</h1>
@@ -157,18 +166,18 @@ const Home = () => (
     <div className="eligibility-card-container">
       <h1 className="heading">Placement Assistance</h1>
       <hr className="line" />
-      <h1>Resume Building</h1>
+      <h1 className="eligibility-heading">Resume Building</h1>
       <p className="eligibility-point">
         1FIN provides professional guidance to help you create an effective
         resume to help you create a lasting impression.
       </p>
-      <h1>Career Counselling</h1>
+      <h1 className="eligibility-heading">Career Counselling</h1>
       <p className="eligibility-point">
         We provide career counselling to conducting mock interviews and aptitude
         tests – we will assist you at every step, all the way, we make you job
         ready
       </p>
-      <h1>Jobs</h1>
+      <h1 className="eligibility-heading">Jobs</h1>
       <p className="eligibility-point">
         We will give you an edge over others with our direct corporate
         affiliations which will ensure that you are placed right.
